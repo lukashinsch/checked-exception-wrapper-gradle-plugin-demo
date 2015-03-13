@@ -27,3 +27,7 @@ dependencies {
     checkedExceptionWrapperGenerator("commons-io:commons-io:2.4:sources")
     checkedExceptionWrapperGenerator("org.apache.commons:commons-compress:1.9:sources")
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.3'
+}
